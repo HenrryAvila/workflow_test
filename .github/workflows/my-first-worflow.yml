@@ -8,5 +8,9 @@ jobs:
     steps:
       - name: Print_Greetings
         run: echo "Hello world"
+      - name: Print Multiple Lines
+        run: |
+          echo "First line"
+          echo "second line"
       - name: Print Goodbye
         run: echo "Goodbye!"
